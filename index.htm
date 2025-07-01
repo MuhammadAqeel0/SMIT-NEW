@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Poetry Assignment</title>
+</head>
+<body>
+    <h1>Poetry workshops</h1>
+    <p>We will be conduting a number of Poetry workshops and symposiums throughout the year.</p>
+    <p>Please note that the fowllowing event are free to members:</p>    
+    <ul class="ul1">
+        <li>A poetic perspective</li>
+        <li>Wait Whitman at war</li>
+        <li>Found poem and Outsider</li>
+    </ul>
+<table class="schedule">
+    <thead>
+      <tr class="heading-row">
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row-1">
+        <td class="label">A Poetic Perspective</td>
+        <td>Sat, 4 Feb 2012<br>11am - 2pm</td>
+        <td>Sat, 3 Mar 2012<br>11am - 2pm</td>
+        <td>Sat, 17 Mar 2012<br>11am - 2pm</td>
+      </tr>
+      <tr class="row-2">
+        <td class="label">Walt Whitman at War</td>
+        <td>Sat, 7 Apr 2012<br>11am - 1pm</td>
+        <td>Sat, 5 May 2012<br>11am - 1pm</td>
+        <td>Sat, 19 May 2012<br>11am - 1pm</td>
+      </tr>
+      <tr class="row-3">
+        <td class="label">Found Poems & Outsider Poetry</td>
+        <td>Sat, 9 Jun 2012<br>11am - 2pm</td>
+        <td>Sat, 7 Jul 2012<br>11am - 2pm</td>
+        <td>Sat, 21 Jul 2012<br>11am - 2pm</td>
+      </tr>
+      <tr class="row-4">
+        <td class="label">Natural Death: An Exploration</td>
+        <td>Sat, 4 Aug 2012<br>11am - 4pm</td>
+        <td>Sat, 8 Sep 2012<br>11am - 4pm</td>
+        <td>Sat, 15 Sep 2012<br>11am - 4pm</td>
+      </tr>
+    </tbody>
+  </table>
+<br>
+<fieldset>
+    <legend>Register your interest</legend>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" class="interest" required><br>
+        <label for="mail">Your Email:</label>
+        <input type="mailto" id="mail" class="interest" required><br>
+    </form>
+    <br>
+    <label for="select">Your Closest Center:</label>
+    <select id="select">
+        <option>New York</option>
+        <option>chicago</option>
+        <option>San fransico</option>
+    </select>
+    <br>
+    <br>
+    <span>Are you a remember?</span>
+    <input type="radio" name="agree" id="agree" value="Yes">
+    <label for="agree">Yes</label>
+    <input type="radio" name="agree" id="agrees" value="No">
+    <label for="agrees">No</label>
+    <br>
+    <button type="submit">Submit</button>
+</fieldset>    
+
+</body>
+</html>
